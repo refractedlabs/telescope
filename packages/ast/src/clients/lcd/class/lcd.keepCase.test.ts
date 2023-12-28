@@ -4,7 +4,7 @@ import {
     createLCDClient,
     makeTemplateTagLegacy
 } from './lcd';
-import { traverse } from '@cosmology/proto-parser'
+import { traverse } from '@refractedlabs/proto-parser'
 import { getNestedProto } from '@cosmology/utils'
 import { defaultTelescopeOptions, ProtoService } from '@cosmology/types';
 import generate from '@babel/generator';

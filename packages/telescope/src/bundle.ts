@@ -1,5 +1,5 @@
-import { ProtoStore, isRefExcluded, createEmptyProtoRef } from '@cosmology/proto-parser';
-import { importNamespace } from '@cosmology/ast';
+import { ProtoStore, isRefExcluded, createEmptyProtoRef } from '@refractedlabs/proto-parser';
+import { importNamespace } from '@refractedlabs/ast';
 import * as dotty from 'dotty';
 import { TelescopeBuilder } from './index';
 import { join, relative, dirname } from 'path';

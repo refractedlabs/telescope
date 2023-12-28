@@ -1,5 +1,5 @@
 import { ProtoRef, TelescopeOptions } from '@cosmology/types';
-import { ProtoStore } from '@cosmology/proto-parser';
+import { ProtoStore } from '@refractedlabs/proto-parser';
 import {
     AminoParseContext,
     createAminoConverter,
@@ -29,7 +29,7 @@ import {
     createInterfaceFromAmino,
     createInterfaceToAmino,
     createRegisterAminoProtoMapping,
-} from '@cosmology/ast';
+} from '@refractedlabs/ast';
 import { ServiceMutation, ServiceQuery } from '@cosmology/types';
 
 export const getMutations = (mutations: ServiceMutation[]) => {

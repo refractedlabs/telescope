@@ -1,5 +1,5 @@
 import { createAminoConverter } from '../index';
-import { ProtoStore, parseProto } from '@cosmology/proto-parser'
+import { ProtoStore, parseProto } from '@refractedlabs/proto-parser'
 import { camel } from '@cosmology/utils';
 import { prepareContext, expectCode } from '../../../../../test-utils';
 

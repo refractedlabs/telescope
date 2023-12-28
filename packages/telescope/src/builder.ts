@@ -1,4 +1,4 @@
-import { ProtoStore } from '@cosmology/proto-parser';
+import { ProtoStore } from '@refractedlabs/proto-parser';
 import { TelescopeParseContext } from './build';
 import { TelescopeOptions, defaultTelescopeOptions } from '@cosmology/types';
 import { bundlePackages } from './bundle';

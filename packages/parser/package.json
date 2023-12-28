@@ -1,6 +1,6 @@
 {
-  "name": "@cosmology/proto-parser",
-  "version": "1.4.0",
+  "name": "@refractedlabs/proto-parser",
+  "version": "1.4.1-rc1",
   "description": "A Parser for Cosmos Protobufs",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/cosmology-tech/telescope/tree/master/packages/parser#readme",
@@ -45,7 +45,8 @@
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   },
   "repository": {
     "type": "git",

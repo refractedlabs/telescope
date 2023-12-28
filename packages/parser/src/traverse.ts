@@ -17,7 +17,7 @@ import {
 } from '@cosmology/types';
 import {
     getPluginValue
-} from '@cosmology/ast';
+} from '@cosmology/utils';
 
 import { Service, Type, Field, Enum, Root, Namespace } from '@cosmology/protobufjs';
 import { importLookup, lookup, lookupAny, lookupNested, protoScopeImportLookup } from './lookup';

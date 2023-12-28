@@ -1,5 +1,5 @@
 import { createObjectWithMethods } from './object';
-import { traverse } from '@cosmology/proto-parser'
+import { traverse } from '@refractedlabs/proto-parser'
 import { getNestedProto } from '@cosmology/utils';
 import { ProtoParseContext } from './context';
 import { createProtoType } from './proto';

@@ -2,7 +2,7 @@ import generate from '@babel/generator';
 import { ProtoType, TelescopeOptions } from '@cosmology/types';
 import { defaultTelescopeOptions as teleDefaults } from '@cosmology/types';
 import deepmerge from 'deepmerge';
-import { ProtoStore } from '@cosmology/proto-parser';
+import { ProtoStore } from '@refractedlabs/proto-parser';
 
 
 export const expectCode = (ast) => {

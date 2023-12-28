@@ -1,5 +1,5 @@
 import { TelescopeBuilder } from '../builder';
-import { createMobxQueryFactory } from '@cosmology/ast';
+import { createMobxQueryFactory } from '@refractedlabs/ast';
 import * as dotty from 'dotty';
 import { commonBundlePlugin } from '../utils';
 

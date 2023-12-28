@@ -1,6 +1,6 @@
 import { ProtoRef, TelescopeOptions } from '@cosmology/types';
-import { ProtoStore } from '@cosmology/proto-parser';
-import { AminoParseContext, GenericParseContext, ProtoParseContext } from '@cosmology/ast';
+import { ProtoStore } from '@refractedlabs/proto-parser';
+import { AminoParseContext, GenericParseContext, ProtoParseContext } from '@refractedlabs/ast';
 import { ServiceMutation, ServiceQuery } from '@cosmology/types';
 export declare const getMutations: (mutations: ServiceMutation[]) => {
     typeUrl: string;

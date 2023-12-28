@@ -1,4 +1,4 @@
-import { ProtoStore, parseProto } from '@cosmology/proto-parser';
+import { ProtoStore, parseProto } from '@refractedlabs/proto-parser';
 import { defaultTelescopeOptions } from '@cosmology/types';
 import { parse } from '../src/parse';
 import { TelescopeParseContext } from '../src/build';
@@ -84,7 +84,7 @@ message QueryConfigRequest {}
 message QueryConfigResponse {
 
 }
-  
+
 
 `});
 

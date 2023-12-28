@@ -1,13 +1,13 @@
 import { aggregateImports, getImportStatements } from '../imports';
 import { join } from 'path';
 import { TelescopeBuilder } from '../builder';
-import { GenericParseContext } from '@cosmology/ast';
+import { GenericParseContext } from '@refractedlabs/ast';
 import { ProtoRef } from '@cosmology/types';
 import { TelescopeParseContext } from '../build';
 import { writeAstToFile } from '../utils/files';
 import { fixlocalpaths } from '../utils';
 import * as t from '@babel/types';
-import { createEmptyProtoRef } from '@cosmology/proto-parser';
+import { createEmptyProtoRef } from '@refractedlabs/proto-parser';
 
 export const commonBundlePlugin = (
   builder: TelescopeBuilder,

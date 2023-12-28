@@ -1,8 +1,8 @@
 import * as dotty from 'dotty';
-import { createEmptyProtoRef, getNestedProto } from '@cosmology/proto-parser';
+import { createEmptyProtoRef, getNestedProto } from '@refractedlabs/proto-parser';
 import { join } from 'path';
 import { TelescopeBuilder } from '../builder';
-import { createScopedRpcFactory, createScopedGrpcWebMsgFactory } from '@cosmology/ast';
+import { createScopedRpcFactory, createScopedGrpcWebMsgFactory } from '@refractedlabs/ast';
 import { ProtoRef } from '@cosmology/types';
 import { fixlocalpaths, getRelativePath } from '../utils';
 import { Bundler } from '../bundler';
