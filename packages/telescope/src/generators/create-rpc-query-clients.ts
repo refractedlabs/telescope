@@ -19,8 +19,8 @@ import {
     grpcWebRpcInterface,
     getGrpcWebImpl,
     createRpcClientImpl,
-} from '@cosmology/ast';
-import { getNestedProto, isRefIncluded } from '@cosmology/proto-parser';
+} from '@refractedlabs/ast';
+import { getNestedProto, isRefIncluded } from '@refractedlabs/proto-parser';
 import { parse } from '../parse';
 import { TelescopeBuilder } from '../builder';
 import { ProtoRoot, ProtoService } from '@cosmology/types';

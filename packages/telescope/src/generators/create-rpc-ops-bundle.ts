@@ -4,13 +4,13 @@ import { TelescopeBuilder } from "../builder";
 import {
   createInstantRpcInterface,
   createInstantRpcClass,
-} from "@cosmology/ast";
+} from "@refractedlabs/ast";
 import { ImportUsage, ProtoRef } from "@cosmology/types";
 import { TelescopeParseContext } from "../build";
 import { writeAstToFile } from "../utils/files";
 import { fixlocalpaths } from "../utils";
 import * as dotty from "dotty";
-import { createEmptyProtoRef } from "@cosmology/proto-parser";
+import { createEmptyProtoRef } from "@refractedlabs/proto-parser";
 import { camel, makeUseHookName, makeUsePkgHookName } from "@cosmology/utils";
 import { variableSlug } from "@cosmology/utils";
 import { swapKeyValue } from "@cosmology/utils";

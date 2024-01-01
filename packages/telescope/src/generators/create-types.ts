@@ -6,8 +6,8 @@ import { parse } from '../parse';
 import { writeFileSync } from 'fs';
 import { dirname } from 'path';
 import { mkdirp } from 'mkdirp';
-import { getNestedProto, isRefExcluded } from '@cosmology/proto-parser';
-import { createRpcClientClass, createRpcClientImpl, createRpcClientInterface, createRpcQueryExtension } from '@cosmology/ast';
+import { getNestedProto, isRefExcluded } from '@refractedlabs/proto-parser';
+import { createRpcClientClass, createRpcClientImpl, createRpcClientInterface, createRpcQueryExtension } from '@refractedlabs/ast';
 import { BundlerFile } from 'src/types';
 import { camel, getQueryMethodNames, swapKeyValue } from '@cosmology/utils';
 
