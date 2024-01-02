@@ -1,6 +1,6 @@
 {
   "name": "@refractedlabs/telescope",
-  "version": "1.4.1-rc20",
+  "version": "1.4.1-rc22",
   "description": "A TypeScript Transpiler for Cosmos Protobufs",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/cosmology-tech/telescope/tree/master/packages/telescope#readme",
@@ -90,7 +90,7 @@
     "@cosmology/utils": "^1.4.0",
     "@cosmwasm/ts-codegen": "0.34.0",
     "@keplr-wallet/unit": "^0.12.53",
-    "@refractedlabs/ast": "^1.4.1-rc19",
+    "@refractedlabs/ast": "^1.4.1-rc21",
     "@refractedlabs/proto-parser": "^1.4.1-rc1",
     "@types/parse-package-name": "0.1.0",
     "case": "1.6.3",
